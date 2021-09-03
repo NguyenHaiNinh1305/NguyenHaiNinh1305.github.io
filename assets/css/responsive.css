@@ -1,0 +1,167 @@
+@media (max-width: 740px){
+    .header__homemenu-item{
+        display: block;
+    }
+    .header__search-btn{
+        display: none;
+    }
+    .header__search-btn-mobile{
+        
+        width: 66px;
+        background-color: black;
+        border: none;
+        float: right;
+        cursor: pointer;
+        position: fixed;
+        display: flex;
+         top: 12px;
+         right: -10px;
+    }
+    .header__search-btn-mobile{
+        display: block;
+    }
+    .header__search-btn-icon-mobile{
+        font-size: 18px;
+        color: white;
+    }
+    .header__search-btn-mobile:hover{
+        background-color: rgba(0, 0, 0, 0, 0.8);
+    }
+    .header{  
+        overflow: hidden; 
+    }
+    .header__homemenu-item-list{
+    position: fixed;
+    left: 0;
+    top: 220px;
+    display: initial;
+    background-color: black;
+    min-width: 162px;
+    height: 116px;
+    box-shadow: 1px 1px 0.2 rgba(0, 0, 0, 0.2);
+    display: none;
+    }
+    .header__homemenu-item-list-item-link{
+        margin-left: 75px;
+        color: white;
+    }
+    .header__homemenu-item-link-m::after{
+    position: absolute;
+    top: 21px;
+    right: 53px;
+}
+.slider{
+    width: 770px;
+    margin-top: 40px;
+    padding-top: 120%;
+}
+.content__section{
+    width: 770px;
+    margin-left: auto;
+    margin-right: auto;
+    /* đẩy nội dung ra giữa */
+    padding: 64px 0;
+    padding-left: 50px;
+    padding-right: 45px;
+}
+.about-petshow{
+    padding-left: 70px;
+    padding-right: 75px;
+}
+.content__section-meberlist{
+    display:block;
+    margin-top: 48px;  
+}.about-petshow-member{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.about-petshow-member-avatar {
+    margin-top: 20px;
+    width: 80%;
+    margin-bottom: 15px;
+}
+.about-petshow-member-desc{
+    display: none;
+}
+.about-petshow-member-name {
+    font-size: 2.5rem;
+    opacity: 0.8;
+    
+}
+.content__section-father{
+width: 770px;
+}
+.contensection-mobile{
+    padding-left: 75px;
+    padding-right: 70px;
+}
+.tour-section-list-item-moible{
+   position: relative;
+}
+.tour-section-list-item-status-v{
+    position: absolute;
+    top: 7px ;
+    right: 7px;
+}
+.tour-section-loca{
+    display: block;
+    
+}
+.tour-section-loca-frame{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-bottom: 70px;
+    
+}
+.content__contact-total-max{
+    width: 770px;
+}
+.contensection-contact-mobile{
+    padding-left: 75px;
+    padding-right: 70px;
+}
+.content__contact-total{
+    display: block;
+}
+.content__contact-input{
+    width: 100%;
+    margin-top: 30px;
+}
+.footer{
+   
+    width: 770px;
+    padding-left: 75px;
+    padding-right: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer__heading{
+    font-size: 2rem;
+    margin-top: 10px;
+}
+.footer__list-iteml{
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+.grid__row{
+    /* position: relative; */
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.grid__2column4{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.grid__2column4-dowloadapp-moblie{
+    margin-left: -1px;
+}
+.modal__body{
+    width: 90%;
+}
+}
