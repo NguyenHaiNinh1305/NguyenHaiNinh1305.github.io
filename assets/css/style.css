@@ -592,12 +592,12 @@
 .footer__heading{
     margin-top: 12px;
 }
-.footer__heading-paymethod{
+/* .footer__heading-paymethod{
     display: flex;
     justify-content: flex-start;
-}
+} */
 .footer__heading-paymethod-img{
-    width: 18%;
+    width: 45px;
     margin-right: 10px;
     margin: 4px;
 }
